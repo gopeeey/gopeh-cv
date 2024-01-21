@@ -135,5 +135,19 @@ export const RESUME_DATA = {
         href: "https://github.com/gopeeey/paychip",
       },
     },
+    {
+      title: "Irrational",
+      techStack: [
+        "Side Project",
+        "For fun",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ],
+      description: "A demonstration of simple and complex patterns in rational and irrational numbers.",
+      link: {
+        href: "https://irrational.gopeh.com",
+      },
+    },
   ],
 } as const;
