@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Backend Engineer Intern",
       logo: ZuriLogo,
-      start: "2021",
+      start: "2020",
       end: "2021",
       description:
         "Worked in multiple teams to design and develop backend applications for various projects. Technologies: Javascript, Node.js, Express.js, MongoDB.",
