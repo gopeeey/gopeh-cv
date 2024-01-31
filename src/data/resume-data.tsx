@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   about:
     "Backend Engineer with a passion for clean architecture and a commitment to building robust and scalable applications.",
   summary:
-    "As a backend engineer with four years of hands-on experience, I thrive in the dynamic world of server-side development, where I bring a passion for creating scalable and efficient solutions, while staying at the forefront of emerging technologies to enhance my craft. Currently, I mostly work with Typescript, Node.js, Postgresql and Mongodb.",
+    "As a backend engineer with four years of hands-on experience, I thrive in the dynamic world of server-side development, where I bring a passion for creating scalable and efficient solutions, while staying at the forefront of emerging technologies to enhance my craft. Currently, I mostly work with Typescript, Javascript, Node.js, Postgresql and Mongodb.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
