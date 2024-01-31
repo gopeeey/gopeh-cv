@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       company: "Heyfood",
       link: "https://heyfood.africa/",
       badges: ["Remote"],
-      title: "Full Stack Engineer → Lead Backend Engineer",
+      title: "Full Stack Engineer (Backend-heavy)",
       logo: HeyfoodLogo,
       start: "2021",
       end: "2023",
