@@ -86,6 +86,7 @@ export const RESUME_DATA = {
     "Socket.io",
     "RabbitMQ",
     "React/Next.js",
+    "AWS",
   ],
   projects: [
     {
