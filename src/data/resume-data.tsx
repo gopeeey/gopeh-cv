@@ -62,7 +62,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description:
-        "Implemented a vast array of new features including an order assignment system, a notification system, a vendor payout system, to mention a few. Led the team, developed deployment strategies for new features, carried-out migration from Mongodb to Postgresql, and many more. Technologies: TypeScript, Node.js, Express.js, MongoDB, Postgresql, Redis, Firebase, React.js/Next.js and multiple integrations with third party APIs.",
+        "Implemented a vast array of new features including an order assignment system, a notification system, a vendor payout system, to mention a few. Led the team, developed deployment strategies for new features, carried-out migration from Mongodb to Postgresql, and many more. Technologies: TypeScript, Javascript, Node.js, Express.js, MongoDB, Postgresql, Redis, Firebase, React.js/Next.js and multiple integrations with third party APIs.",
     },
     {
       company: "Zuri Team",
@@ -87,6 +87,7 @@ export const RESUME_DATA = {
     "RabbitMQ",
     "React/Next.js",
     "AWS",
+    "Firebase"
   ],
   projects: [
     {
