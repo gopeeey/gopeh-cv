@@ -12,9 +12,9 @@ export const RESUME_DATA = {
   location: "Ibadan, Oyo state, Nigeria.",
   locationLink: "https://www.google.com/maps/place/Ibadan",
   about:
-    "Backend developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
+    "Fullstack developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
   summary:
-    "As a backend developer with five years of hands-on experience, I thrive in the dynamic world of server-side development, where I bring a passion for creating scalable and efficient solutions, while staying at the forefront of emerging technologies to enhance my craft.",
+    "As a fullstack developer with five years of hands-on experience, I thrive in the dynamic world of server-side and client-side development, where I bring a passion for creating scalable and efficient solutions, while staying at the forefront of emerging technologies to enhance my craft.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
@@ -64,17 +64,17 @@ export const RESUME_DATA = {
       description:
         "Implemented a vast array of new features including an order assignment system, a notification system, a vendor payout system, several dashboards to mention a few. Led the team, developed deployment strategies for new features, carried-out migration from Mongodb to Postgresql, and many more. Technologies: TypeScript, Javascript, Node.js, Express.js, MongoDB, Postgresql, Redis, Firebase, AWS, React.js/Next.js and multiple integrations with third party APIs.",
     },
-    {
-      company: "Zuri Team",
-      link: "https://www.zuri.team/",
-      badges: ["Remote"],
-      title: "Node.js Backend Developer Intern",
-      logo: ZuriLogo,
-      start: "2020",
-      end: "2021",
-      description:
-        "Worked in multiple teams to design and develop backend applications for various projects. Technologies: Javascript, Node.js, Express.js, MongoDB.",
-    },
+    // {
+    //   company: "Zuri Team",
+    //   link: "https://www.zuri.team/",
+    //   badges: ["Remote"],
+    //   title: "Node.js Backend Developer Intern",
+    //   logo: ZuriLogo,
+    //   start: "2020",
+    //   end: "2021",
+    //   description:
+    //     "Worked in multiple teams to design and develop backend applications for various projects. Technologies: Javascript, Node.js, Express.js, MongoDB.",
+    // },
     {
       company: "Bluu Africa",
       link: "https://www.linkedin.com/company/bluu-africa/",
@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       title: "Fullstack Developer",
       logo: ZuriLogo,
       start: "2019",
-      end: "2020",
+      end: "2021",
       description:
         "Worked in a team of 3 to build a blog and an e-commerce website for the company. Technologies: Python, Django, React.js, Next.js, Javascript, PostgreSQL",
     },
