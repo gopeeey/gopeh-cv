@@ -9,12 +9,13 @@ import {
 export const RESUME_DATA = {
   name: "Samuel Gopeh",
   initials: "SG",
-  location: "Ibadan, Oyo state, Nigeria.",
+  location: "No.23, Surulere Street, Ibadan 200213, Oyo, Nigeria.",
   locationLink: "https://www.google.com/maps/place/Ibadan",
-  about:
-    "Fullstack developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
+  // about:
+  //   "Backend developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
+  about: "Backend Developer",
   summary:
-    "As a fullstack developer with five years of hands-on experience, I thrive in the dynamic world of server-side and client-side development, where I bring a passion for creating scalable and efficient solutions, while staying at the forefront of emerging technologies to enhance my craft.",
+    "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
@@ -33,14 +34,14 @@ export const RESUME_DATA = {
       }
     ],
   },
-  // education: [
-  //   {
-  //     school: "Wrocław University of Technology",
-  //     degree: "Bachelor's Degree in Control systems engineering and Robotics",
-  //     start: "2007",
-  //     end: "2010",
-  //   },
-  // ],
+  education: [
+    {
+      school: "Precious Gift Comprehensive College",
+      degree: "Secondary School Certificate",
+      start: "2008",
+      end: "2014",
+    },
+  ],
   work: [
     {
       company: "Blending Bytes",
@@ -52,17 +53,30 @@ export const RESUME_DATA = {
       end: "2024",
       description:
         "Implemented the backend for a faceted search and provided general insight into backend code architecture. Technologies: Typescript, Node.js and Mongodb.",
+      accomplishments: [
+        "Reduced database cost by optimizing existing inefficient queries.",
+        "Improved developer experience by providing comprehensive insights into backend code architecture.",
+      ]
     },
     {
       company: "Heyfood",
       link: "https://heyfood.africa/",
       badges: ["Hybrid"],
-      title: "Full Stack Developer (backend-heavy)",
+      title: "Fullstack Developer (backend-heavy)",
       logo: HeyfoodLogo,
       start: "2021",
       end: "2023",
       description:
         "Implemented a vast array of new features including an order assignment system, a notification system, a vendor payout system, several dashboards to mention a few. Led the team, developed deployment strategies for new features, carried-out migration from Mongodb to Postgresql, and many more. Technologies: TypeScript, Javascript, Node.js, Express.js, MongoDB, Postgresql, Redis, Firebase, AWS, React.js/Next.js and multiple integrations with third party APIs.",
+        accomplishments: [
+          "Improved delivery time by 20% by automating the order assignment and batching process.",
+          "Improved vendor and driver satisfaction by implementing a flexible automatic payout system.",
+          "Drove growth via rapid iteration and implementation of features to support growth hacks.",
+          "Improved customer support response time by developing a real-time monitoring dashboard for live orders.",
+          "Reduced grocery vendor onboarding time by 50% through the implementation of an automatic inventory ingestion system.",
+          "Improved overall operations efficiency by implementing interfaces that provided insights into the system and allowed authorized employees to take immediate action when necessary.",
+          "Reduced database cost by 65% by migrating to a more suitable database (MongoDB to PostgreSQL)."
+        ]
     },
     // {
     //   company: "Zuri Team",
@@ -85,6 +99,10 @@ export const RESUME_DATA = {
       end: "2021",
       description:
         "Worked in a team of 3 to build a blog and an e-commerce website for the company. Technologies: Python, Django, React.js, Next.js, Javascript, PostgreSQL",
+        accomplishments: [
+          "Improved brand awareness by building a blog for the company",
+          "Assited in generating revenue by building and maintaining an e-commerce website.",
+        ]
     },
   ],
   skills: [
@@ -112,9 +130,7 @@ export const RESUME_DATA = {
     "CSS3",
     "Git",
     "Bitbucket",
-    "Jira",
-    "Problem solving",
-    "Critical thinking",
+    "Jira"
   ],
   projects: [
     {
@@ -127,30 +143,11 @@ export const RESUME_DATA = {
         "TypeScript",
         "Node.js"
       ],
-      description: "An npm package that provides a super simple interface for uploading files from a server to major cloud storage platforms including S3, Google Cloud Storage, Azure Blob Storage, Firebase, and Google Drive.",
+      description: "An npm package that provides a simple interface for uploading files from a server to major cloud storage platforms, including S3, Google Cloud Storage, Azure Blob Storage, Firebase, and Google Drive.",
       logo: SatgLogo,
       link: {
         label: "https://www.npmjs.com/package/bufferbus",
         href: "https://www.npmjs.com/package/bufferbus",
-      },
-    },
-    {
-      title: "SATG",
-      techStack: [
-        "TypeScript",
-        "JavaScript",
-        "Socket.io",
-        "RabbitMQ",
-        "Mongodb",
-        "Redis",
-        "HTML",
-        "CSS",
-      ],
-      description: "Short for Super Awesome Typing Game. A multiplayer typing game",
-      logo: SatgLogo,
-      link: {
-        label: "satg.gopeh.com",
-        href: "https://satg.gopeh.com/",
       },
     },
     {
@@ -162,9 +159,28 @@ export const RESUME_DATA = {
         "Redis",
         "Jest",
       ],
-      description: "A platform for businesses to create and manage wallets for their users. Implements a RESTful API for creating, funding and withdrawing from wallets while maintaining accurate transaction records, allowing businesses to focus on writing their business logic.",
+      description: "A platform for businesses to create and manage wallets for their users. It implements a RESTful API for creating, funding, and withdrawing from wallets while maintaining accurate transaction records, allowing businesses to focus on writing their business logic.",
       link: {
         href: "https://github.com/gopeeey/paychip",
+      },
+    },
+    {
+      title: "S.A.T.G",
+      techStack: [
+        "TypeScript",
+        "JavaScript",
+        "Socket.io",
+        "RabbitMQ",
+        "Mongodb",
+        "Redis",
+        "HTML",
+        "CSS",
+      ],
+      description: "Short for Super Awesome Typing Game. A real-time multiplayer typing game",
+      logo: SatgLogo,
+      link: {
+        label: "satg.gopeh.com",
+        href: "https://satg.gopeh.com/",
       },
     },
     {
@@ -175,7 +191,7 @@ export const RESUME_DATA = {
         "HTML",
         "CSS",
       ],
-      description: "Up Or Down. A simple application for monitoring the up or down status of a user's desired sites. Built entirely in Node.js without any third party libraries (as an added challenge).",
+      description: "Up Or Down. A simple application for monitoring the up or down status of a user's desired sites. It is built entirely in Node.js without third-party libraries (as an added challenge).",
       link: {
         href: "https://github.com/gopeeey/up_or_down",
       },
@@ -183,12 +199,11 @@ export const RESUME_DATA = {
     {
       title: "Irrational",
       techStack: [
-        "For fun",
         "Javascript",
         "HTML",
         "CSS"
       ],
-      description: "A demonstration of simple and complex patterns in rational and irrational numbers.",
+      description: "A simple demonstration of simple and complex patterns in rational and irrational numbers.",
       link: {
         href: "https://irrational.gopeh.com",
       },
