@@ -9,13 +9,16 @@ import {
 export const RESUME_DATA = {
   name: "Samuel Gopeh",
   initials: "SG",
-  location: "No.23, Surulere Street, Ibadan 200213, Oyo, Nigeria.",
+  location: "Ibadan 200213, Oyo, Nigeria.",
   locationLink: "https://www.google.com/maps/place/Ibadan",
   // about:
   //   "Backend developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
+  // about: "Full Stack Developer",
   about: "Backend Developer",
+  // summary:
+  //   "As a full stack developer with five years of hands-on experience, I excel in the dynamic realm of client-side and server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   summary:
-    "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
+    "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
@@ -62,7 +65,7 @@ export const RESUME_DATA = {
       company: "Heyfood",
       link: "https://heyfood.africa/",
       badges: ["Hybrid"],
-      title: "Fullstack Developer (backend-heavy)",
+      title: "Full Stack Developer (Backend-heavy)",
       logo: HeyfoodLogo,
       start: "2021",
       end: "2023",
@@ -93,7 +96,7 @@ export const RESUME_DATA = {
       company: "Bluu Africa",
       link: "https://www.linkedin.com/company/bluu-africa/",
       badges: ["Remote"],
-      title: "Fullstack Developer",
+      title: "Full Stack Developer",
       logo: ZuriLogo,
       start: "2019",
       end: "2021",
@@ -143,7 +146,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Node.js"
       ],
-      description: "An npm package that provides a simple interface for uploading files from a server to major cloud storage platforms, including S3, Google Cloud Storage, Azure Blob Storage, Firebase, and Google Drive.",
+      description: "An npm package that provides a simple interface for uploading files from a node.js application to major cloud storage platforms, including S3, Google Cloud Storage, Azure Blob Storage, Firebase, and Google Drive.",
       logo: SatgLogo,
       link: {
         label: "https://www.npmjs.com/package/bufferbus",

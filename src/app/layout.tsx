@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+import type { Metadata } from "next";
+import { Inter, Noto_Sans, Nunito } from "next/font/google";
 
-import "./globals.css";
 import React from "react";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,7 +12,17 @@ export const metadata: Metadata = {
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ["cyrillic"],
+  display: "swap",
+});
+
+const nunito = Nunito({
+  subsets: ["cyrillic"],
+  display: "swap",
+});
+
+const notoSans = Noto_Sans({
+  subsets: ["cyrillic"],
   display: "swap",
 });
 
@@ -22,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={notoSans.className}>
       <body>{children}</body>
       <Analytics />
     </html>

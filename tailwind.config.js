@@ -9,16 +9,16 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    fontSize: {
-      xs: ["0.85rem", "1.4rem"],
-      sm: ["0.97rem", "1.6rem"],
-      base: "1.25rem",
-      xl: "1.563rem",
-      "2xl": "1.953rem",
-      "3xl": "2.441rem",
-      "4xl": "3.052rem",
-      "5xl": "3.052rem",
-    },
+    // fontSize: {
+    //   xs: ["0.75rem", "1.3rem"],
+    //   sm: ["0.87rem", "1.4rem"],
+    //   base: "1.15rem",
+    //   xl: "1.463rem",
+    //   "2xl": "1.853rem",
+    //   "3xl": "2.341rem",
+    //   "4xl": "2.952rem",
+    //   "5xl": "2.952rem",
+    // },
     container: {
       center: true,
       padding: "2rem",
