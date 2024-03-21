@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   // summary:
   //   "As a full stack developer with five years of hands-on experience, I excel in the dynamic realm of client-side and server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   summary:
-    "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
+    "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of client-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
@@ -50,13 +50,14 @@ export const RESUME_DATA = {
       company: "Blending Bytes",
       link: "https://www.blendingbytes.com/",
       badges: ["Remote"],
-      title: "Developer Consultant",
+      title: "Backend Developer (Contract)",
       logo: BlendingBytesLogo,
       start: "2023",
       end: "2024",
       description:
         "Implemented the backend for a faceted search and provided general insight into backend code architecture. Technologies: Typescript, Node.js and Mongodb.",
       accomplishments: [
+        "Improved user experience by implementing the backend for a faceted search.",
         "Reduced database cost by optimizing existing inefficient queries.",
         "Improved developer experience by providing comprehensive insights into backend code architecture.",
       ]
@@ -65,7 +66,7 @@ export const RESUME_DATA = {
       company: "Heyfood",
       link: "https://heyfood.africa/",
       badges: ["Hybrid"],
-      title: "Full Stack Developer (Backend-heavy)",
+      title: "Full Stack Developer",
       logo: HeyfoodLogo,
       start: "2021",
       end: "2023",
