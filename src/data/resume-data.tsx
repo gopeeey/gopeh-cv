@@ -11,12 +11,10 @@ export const RESUME_DATA = {
   initials: "SG",
   location: "Ibadan 200213, Oyo, Nigeria.",
   locationLink: "https://www.google.com/maps/place/Ibadan",
-  // about:
-  //   "Backend developer with a passion for clean architecture and a commitment to building robust and scalable applications.",
-  // about: "Full Stack Developer",
+  fullstackAbout: "Full Stack Developer",
   about: "Backend Developer",
-  // summary:
-  //   "As a full stack developer with five years of hands-on experience, I excel in the dynamic realm of client-side and server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
+  fullstackSummary:
+    "As a full stack developer with five years of hands-on experience, I excel in the dynamic realm of client-side and server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   summary:
     "As a backend developer with five years of hands-on experience, I excel in the dynamic realm of client-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture. I stay at the forefront of emerging technologies by ensuring my skills are consistently honed and adapted.",
   avatarUrl:
@@ -163,6 +161,17 @@ export const RESUME_DATA = {
     "Jira",
   ],
   projects: [
+    {
+      title: "Codewatch",
+      techStack: ["TypeScript", "Node.js", "Postgresql", "Jest"],
+      description:
+        "A free and open source error logging and monitoring system for Node.js applications. It helps developers track errors and exceptions, making it easier to identify and fix issues.",
+      logo: SatgLogo,
+      link: {
+        label: "https://github.com/gopeeey/codewatch",
+        href: "https://github.com/gopeeey/codewatch",
+      },
+    },
     {
       title: "Bufferbus",
       techStack: [
