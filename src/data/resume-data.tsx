@@ -48,6 +48,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Turing",
+      link: "https://www.turing.com/",
+      badges: ["Remote"],
+      title: "Fullstack Developer",
+      start: "Apr 2024",
+      end: "Present",
+      description:
+        "Trained and fine-tuned LLMs to improve task-specific performance and language understanding.",
+      accomplishments: [
+        "Trained and fine-tuned LLMs to improve task-specific performance and language understanding.",
+      ],
+    },
+    {
       company: "Blending Bytes",
       link: "https://www.blendingbytes.com/",
       badges: ["Remote"],
