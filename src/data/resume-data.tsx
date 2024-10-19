@@ -22,7 +22,8 @@ export const RESUME_DATA = {
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
     email: "sammygopeh@gmail.com",
-    tel: "+2349055551371",
+    tel: "+2347049240767",
+    whatsapp: "+2349055551371",
     social: [
       {
         name: "GitHub",

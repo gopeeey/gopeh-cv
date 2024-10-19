@@ -85,7 +85,16 @@ export default function Page({ variant }: Props) {
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  Phone:{" "}
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
+                </a>
+              ) : null}
+              {RESUME_DATA.contact.whatsapp ? (
+                <a href={`tel:${RESUME_DATA.contact.whatsapp}`}>
+                  Whatsapp:{" "}
+                  <span className="underline">
+                    {RESUME_DATA.contact.whatsapp}
+                  </span>
                 </a>
               ) : null}
             </div>
